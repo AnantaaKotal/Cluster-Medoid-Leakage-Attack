@@ -2,11 +2,11 @@
 
 A minimal evaluator for memorization / leakage risk in tabular synthetic data.
 
-✅ **You provide**
+**You provide**
 1. `real.csv` (your real dataset)
 2. `synthetic.csv` (your synthetic dataset)
 
-✅ **You get 3 metrics**
+**You get 3 metrics**
 - **ASR(τ)**: fraction of synthetic **medoids** within distance τ of the nearest real record
 - **Coverage(τ)**: fraction of real records within distance τ of at least one synthetic medoid
 - **dmin summary stats**: min/mean/median/max/p10/p90 of medoid-to-real nearest-neighbor distances
