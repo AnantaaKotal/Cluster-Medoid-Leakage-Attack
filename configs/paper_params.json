@@ -1,0 +1,50 @@
+{
+  "adult": {
+    "umap": {
+      "n_neighbors": 64,
+      "min_dist": 0.016563943917712376,
+      "n_components": 13,
+      "random_state": 42
+    },
+    "hdbscan": {
+      "min_cluster_size": 100,
+      "min_samples": 16
+    }
+  },
+  "bank": {
+    "umap": {
+      "n_neighbors": 81,
+      "min_dist": 0.2044074470066875,
+      "n_components": 12,
+      "random_state": 42
+    },
+    "hdbscan": {
+      "min_cluster_size": 89,
+      "min_samples": 24
+    }
+  },
+  "drug": {
+    "umap": {
+      "n_neighbors": 7,
+      "min_dist": 0.032,
+      "n_components": 31,
+      "random_state": 42
+    },
+    "hdbscan": {
+      "min_cluster_size": 18,
+      "min_samples": 4
+    }
+  },
+  "telco": {
+    "umap": {
+      "n_neighbors": 23,
+      "min_dist": 0.07540677678963346,
+      "n_components": 7,
+      "random_state": 42
+    },
+    "hdbscan": {
+      "min_cluster_size": 26,
+      "min_samples": 7
+    }
+  }
+}
