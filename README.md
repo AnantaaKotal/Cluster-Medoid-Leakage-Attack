@@ -72,9 +72,9 @@ The script prints a short summary and writes `metrics.json` containing:
 If you use this code, please cite:
 
 ```bibtex
-@article{mustaqim2025privacy,
+@article{mustaquim2025privacy,
   title   = {When Privacy Isn't Synthetic: Hidden Data Leakage in Generative AI Models},
-  author  = {Mustaqim, S. M. and Kotal, Anantaa and Yi, Paul H.},
+  author  = {Mustaqim, S M and Kotal, Anantaa and Yi, Paul H.},
   journal = {arXiv preprint arXiv:2512.06062},
   year    = {2025}
 }
