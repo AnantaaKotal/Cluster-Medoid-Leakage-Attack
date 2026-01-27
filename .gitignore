@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Outputs
+metrics.json
+*.jsonl
+*.csv.tmp
+
+# Jupyter
+.ipynb_checkpoints/
