@@ -24,6 +24,12 @@ python evaluate.py --dataset adult --real real.csv --syn synthetic.csv
 ```
 Supported datasets: `adult`, `bank`, `telco`, `drug`
 
+#### Run the included Adult example
+
+```bash
+python evaluate.py --dataset adult --real examples/adult_real.csv --syn examples/adult_synthetic_GReat.csv
+```
+
 ---
 
 ### Any new dataset (auto mode)
