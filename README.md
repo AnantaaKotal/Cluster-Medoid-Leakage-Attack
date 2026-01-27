@@ -8,8 +8,8 @@ arXiv:2512.06062 — https://arxiv.org/abs/2512.06062
 
 It implements the paper’s **Cluster–Medoid Leakage Attack (CMLA)** idea: cluster synthetic samples (UMAP + HDBSCAN), extract **cluster medoids**, and audit **nearest-neighbor distances** to real data.
 
-✅ **Input:** `real.csv` and `synthetic.csv` (same columns)  
-✅ **Output:** exactly 3 evaluation signals
+ **Input:** `real.csv` and `synthetic.csv` (same columns)  
+ **Output:** exactly 3 evaluation signals
 - **ASR(τ)**: fraction of synthetic **medoids** within distance τ of the nearest real record
 - **Coverage(τ)**: fraction of real records within distance τ of at least one synthetic medoid
 - **dmin summary stats**: min/mean/median/max/p10/p90 of medoid→real nearest-neighbor distances
