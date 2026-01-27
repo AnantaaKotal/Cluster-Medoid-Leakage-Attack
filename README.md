@@ -74,7 +74,7 @@ If you use this code, please cite:
 ```bibtex
 @article{mustaquim2025privacy,
   title   = {When Privacy Isn't Synthetic: Hidden Data Leakage in Generative AI Models},
-  author  = {Mustaqim, S M and Kotal, Anantaa and Yi, Paul H.},
+  author  = {Mustaquim, S M and Kotal, Anantaa and Yi, Paul H.},
   journal = {arXiv preprint arXiv:2512.06062},
   year    = {2025}
 }
