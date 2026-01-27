@@ -3,7 +3,7 @@
 This repository is the official evaluation code for the paper:
 
 **When Privacy Isn’t Synthetic: Hidden Data Leakage in Generative AI Models**  
-S.M. Mustaqim, Anantaa Kotal, Paul H. Yi  
+S M Mustaquim, Anantaa Kotal, Paul H. Yi  
 arXiv:2512.06062 — https://arxiv.org/abs/2512.06062
 
 It implements the paper’s **Cluster–Medoid Leakage Attack (CMLA)** idea: cluster synthetic samples (UMAP + HDBSCAN), extract **cluster medoids**, and audit **nearest-neighbor distances** to real data.
